@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  body,
+  input,
+  button,
+  a {
+    background: #d1d1d1;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    color: #303030;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: rebeccapurple;
+  }
+  
+  main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .container {
+    width: 25vw;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  
+  label,
+  button,
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+  }
+  
+  .forgot-passwd {
+    display: inline-block;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  .forgot-passwd {
+    margin-bottom: 1em;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    border: 2px solid #707070;
+    border-radius: 20px;
+    height: 4em;
+    width: 100%;
+    padding: 0.5em;
+  }
+  
+  button.login {
+    border: 2px solid #707070;
+    border-radius: 20px;
+    background: rebeccapurple;
+    color: wheat;
+    font-size: 1.5em;
+    width: 80%;
+    padding: 0.5em;
+    margin: 0 auto;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  

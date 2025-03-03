@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3a5f, #00b4db); /* Degradê azul */
+    font-family: Arial, sans-serif;
+    
+}
+
+.cadastro input{ /* Campos de texto */
+    width: 350px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.cadastro{ /* Formulário/fundo */
+    width: 350px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    text-align: center;
+
+}
+
+jatemcadastro {
+    background-color: rgb(255, 0, 0);
+    padding: 100px;
+    text-align: right;
+
+}
+
+#lnome { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+#lemail { 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-style: unset;
+    
+}
+
+#lsenha { 
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#botão {
+    background-image: linear-gradient(180deg, #a5a3e3 0, #8088d9 25%, #4f6fce 50%, #0058c3 75%, #0044b9 100%);
+    color: rgb(0, 0, 0);
+    font-family: Marker Felt, fantasy;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#botão:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+#botão:active {
+    transform: scale(0.95);
+}

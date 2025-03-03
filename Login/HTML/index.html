@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <h1 id="h1">Faça seu cadastro</h1>
+    <div class="cadastro">
+        <form action="cadastrar.php" method="post">
+            <label for="nome" id="lnome">NOME:</label>
+            <input type="text" name="nome" id="nome" style="display: block;" autofocus placeholder="Digite seu nome completo">
+            <br>
+            <label for="email" id="lemail">EMAIL:</label>
+            <input type="email" name="email" id="email" style="display: block;" placeholder="Digite seu email">
+            <br>
+            <label for="senha" id="lsenha">SENHA:</label>
+            <input type="password" name="senha" id="senha" style="display: block;" placeholder="Digite sua senha">
+            <br>
+            <a href="login.php" id="icadastro">Já tem cadastro? Faça login</a>
+            <br>
+            <input type="submit" id="botão" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>
